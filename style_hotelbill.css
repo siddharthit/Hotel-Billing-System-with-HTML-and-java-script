@@ -1,0 +1,97 @@
+body{
+    background-image: url(Hotel.jpg);
+        background-color: rgba(178, 206, 114, 0.555);
+        background-size: cover;
+        text-transform: capitalize;
+    }
+    h1{
+        background-image: linear-gradient(to right, rgb(234, 234, 240), rgb(227, 142, 32));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+    
+    table{
+        margin-bottom: 500;
+        height: 500px;
+        width: 500px;
+        border-radius: 20px;
+        border-color: rgba(92, 234, 196, 0.505);
+    }
+    input[type=text]
+    {
+        
+        border-radius: 35px;;
+        height: 30;
+        width: 300;
+        text-align: center;color: rgb(235, 14, 14);
+        font-size: large;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        border-color: rgb(231, 158, 22);
+    }
+    input[type=button]
+    {
+        height: auto;
+        width: auto;
+        border-radius: 12px;
+        border-width: 3;
+        cursor: pointer;
+        background-color: rgb(141, 246, 204) ;
+        font-size: large;
+        font-weight: bold;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    select{
+        height: auto;
+        width: auto;
+        border-radius: 12px;
+        border-width: 3;
+        cursor: pointer;
+        background-color: aquamarine ;
+        font-size: large;
+        font-weight: bold;
+        font-family: 'Times New Roman', Times, serif;
+    
+    }
+    input[type=button ]:hover 
+    {
+        background-color: rgba(159, 245, 255, 0.564);
+    
+        
+    }
+
+
+    select:hover
+    {
+        background-color: rgba(159, 245, 255, 0.564);
+    }
+    p{
+        font-family:'Times New Roman', Times, serif;
+        font-style:normal;
+        font-size: large;
+        color: rgba(2, 2, 2, 0.897);
+        
+    }
+    input[type=reset]
+    {
+        height: auto;
+        width: auto;
+        border-radius: 12px;
+        border-width: 3;
+        cursor: pointer;
+        background-color: aquamarine ;
+        font-size: large;
+        font-weight: bold;
+        font-family: 'Times New Roman', Times, serif; 
+    }
+    input[type=reset]:hover
+    {
+        background-color: rgb(244, 210, 159);
+    }
+    input[type=checkbox]:{
+        background-color: rgb(244, 210, 159);
+
+    }
+    .faci{
+        color:rgba(0, 7, 2, 0.993);
+        background-color: rgba(176, 180, 178, 0.499);
+    }
